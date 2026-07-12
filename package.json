@@ -1,0 +1,27 @@
+{
+  "name": "quvr-discord-bot",
+  "version": "0.1.0",
+  "description": "Community Discord bot for QUVR — live stock token / USDG prices, price alerts, and bridge route info for Robinhood Chain, right in Discord.",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "deploy-commands": "node src/deploy-commands.js"
+  },
+  "keywords": ["quvr", "discord-bot", "robinhood-chain", "bridge", "stock-tokens"],
+  "author": "QUVR",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/quvrsite/quvr-discord-bot"
+  },
+  "homepage": "https://quvr.site",
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5",
+    "node-cron": "^3.0.3"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
